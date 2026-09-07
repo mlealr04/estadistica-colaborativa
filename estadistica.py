@@ -12,5 +12,7 @@ ingresos = datos[:, 1]
 
 media = np.mean(ingresos)
 print("Media del ingreso:", media)
+mediana = np.median(ingresos)
+print("Mediana del ingreso:", mediana)
 
 # MEDIDAS DE DISPERSION
